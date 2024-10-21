@@ -1,0 +1,25 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+.scrollable-cards{
+ display: flex;
+ overflow-x: auto;
+ overflow-y: hidden;
+  
+}
+.scrollable-cards::-webkit-scrollbar{
+    height: 8px;
+   
+}
+.scrollable-cards::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    padding: 0 20px;
+}
+.scrollable-cards::-webkit-scrollbar-thumb{
+    background-color: #8a1515;
+    border-radius: 10px;
+     
+}
+.scrollable-cards::-webkit-scrollbar-thumb:hover{
+    background-color: #555;
+}
